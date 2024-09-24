@@ -15,6 +15,8 @@ public class doubly <E extends Comparable<E>>{
         public void setNext(Node <E> n){
             next = n;
         }
-
+        private Node<E> tail = null;
+        private Node<E> head = null;
+        
     }
 }
