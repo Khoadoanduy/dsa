@@ -17,6 +17,7 @@ public class doubly <E extends Comparable<E>>{
         }
         private Node<E> tail = null;
         private Node<E> head = null;
-        
+        private int size = 0;
+
     }
 }
